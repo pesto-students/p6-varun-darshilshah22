@@ -1,0 +1,108 @@
+input[type=text]{
+    width: 50%;
+    display: block;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=number]{
+    width: 15%;
+    display: block;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=tel]{
+    width: 15%;
+    display: block;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#state, #city{
+    width: 15%;
+    display: block;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#address{
+    width: 35%;
+    display: block;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pin{
+    width: 25%;
+    display: block;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    margin-top: 10px;
+}
+
+input[type=radio]{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+div{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0.1em;
+}
+
+section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+button{
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: grey;
+    color: black;
+    border-width: 0;
+}
