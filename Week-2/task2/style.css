@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-top: 30vh;
+    margin-left: 40vw;
+}
+
+h1{
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 85px;
+    visibility: hidden;
+    transition-duration: 1s;
+}
+
+.s{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    width: 200px;
+    z-index: 9;
+}
+
+.s1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition-duration: 1s;
+}
+
+.s2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    transition-duration: 1s;
+}
+
+.s3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    transition-duration: 1s;
+}
+
+.s4{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition-duration: 1s;
+}
+
+section:hover .s1{
+    transform-origin: top left;
+    transform: rotate(90deg); 
+}
+
+section:hover .s2{
+    transform-origin: right top;
+    transform: rotate(-90deg); 
+}
+
+section:hover .s3{
+    transform-origin: bottom left;
+    transform: rotate(-90deg); 
+}
+
+section:hover .s4{
+    transform-origin: right bottom;
+    transform: rotate(90deg); 
+}
+
+section:hover h1{
+    visibility: visible;
+}
