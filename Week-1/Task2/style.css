@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-menu{
+    width: 5%;
+    background-color: rgba(240, 240, 240, 1);
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    float: left;
+}
+
+.las, .la-bars{
+    display: block; 
+    color: black;
+}
+
+.content{
+    display: inline;
+    font-family: arial, sans-serif;
+}
+
+.header{
+    height: 250px;
+    background-color: rgba(69, 69, 69, 1);
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+}
+
+.heading{
+    margin-top: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.artist{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.controls{
+    margin-top: 85px;
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 30px;
+    font-family: arial, sans-serif;
+}
+
+.la-play, .la-plus, .la-ellipsis-h{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.tab{
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin: 16px;
+}
+
+td, th {
+  border-color: transparent;
+  text-align: left;
+  padding: 6px;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(240, 240, 240, 1);
+}
+
+.catty{
+    color: blue;
+    border: 2px solid black;
+    width: fit-content;
+    padding: 3px;
+    font-weight: 600;
+}
+
+.footer{
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(67, 104, 155, 1);
+    display: block;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-img{
+    height: 7%;
+    width: 7%;
+}
+
+.footer-heading-text{
+    font-size: 20px;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+.footer-con{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.la-step-backward, .la-pause, .la-step-forward, .la-undo-alt, .la-random{
+    float: right;
+    justify-content: space-evenly;
+    color: white;
+}
