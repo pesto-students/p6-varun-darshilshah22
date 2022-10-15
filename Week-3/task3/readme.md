@@ -3,7 +3,7 @@
 <p>
   in line 2, I declared "count" variable
   in "increment" function, I increase count by 1
-  in line 7, I declared another variable for print the message
+  in line 7, I declared another variable for print the message which created only once
   and in "log" function, we print the message once
   
   after all calls we got output, which is 0.
