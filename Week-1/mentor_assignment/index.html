@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+
+    <script>
+        function toSubmit() {
+            var fname = document.getElementById('fname').value;
+            var lname = document.getElementById('lname').value;
+            var age = document.getElementById('age').value;
+            var mobile = document.getElementById('mobile').value;
+            var state = document.getElementById('state').value;
+            var city = document.getElementById('city').value;
+            var address = document.getElementById('address').value;
+            var zipcode = document.getElementById('pin').value;
+            var gender = document.getElementById('gender').value;
+            console.log(fname);
+            localStorage.setItem('fname', fname);
+            localStorage.setItem('lname', lname);
+            localStorage.setItem('age', age);
+            localStorage.setItem('mobile', mobile);
+            localStorage.setItem('state', state);
+            localStorage.setItem('city', city);
+            localStorage.setItem('address', address);
+            localStorage.setItem('pin', zipcode);
+            localStorage.setItem('gender', gender);
+            return true;
+        }
+    </script>
+
+</head>
+
+<body>
+    <h1>Registration Screen</h1>
+
+    <div>
+        <form onsubmit="toSubmit();" action="display.html">
+            <label for="fname">First Name</label>
+            <input required type="text" name="firstname" id="fname" placeholder="Enter FirstName">
+
+            <label for="lname">Last Name</label>
+            <input required type="text" name="lastname" id="lname" placeholder="Enter LastName">
+
+            <label for="age">Age</label>
+            <input required type="number" name="age" id="age" placeholder="Age">
+
+            <label for="mobile">Mobile</label>
+            <input required type="tel" name="mobile" id="mobile" placeholder="Enter Mobile" pattern="[0-9]{10}"
+                maxlength="10">
+
+            <label for="state">State</label>
+            <select id="state" name="state" required>
+                <option value="gujarat">Gujarat</option>
+                <option value="delhi">Delhi</option>
+                <option value="raj">Rajasthan</option>
+                <option value="mh">Maharashtra</option>
+                <option value="kar">Karnatak</option>
+            </select>
+
+            <label for="city">City</label>
+            <select id="city" name="city" required>
+                <option value="ahm">Ahmedabad</option>
+                <option value="surat">Surat</option>
+                <option value="mum">Mumbai</option>
+                <option value="udp">Udaipur</option>
+                <option value="pat">Patna</option>
+            </select>
+
+            <label for="address">Address</label>
+            <textarea required id="address" name="address" rows="4" cols="50" placeholder="Enter Address"></textarea>
+
+            <label for="zipcode">Zipcode</label>
+            <input required type="text" name="pin" id="pin" maxlength="6" pattern="[0-9]{6}"
+                placeholder="Enter Zipcode">
+
+            <label for="gender">Gender</label>
+            <section>
+                <input type="radio" checked id="gender" value="M" name="gender"> <label for="accent">Male</label>
+                <input type="radio" checked id="gender" value="F" name="gender"> <label for="accent">Female</label>
+            </section>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+
+<!-- First Name
+Last Name
+Age
+Mobile
+State (selectbox)
+City (selectbox)
+Address
+Zipcode
+Gender M or F (radiobutton) -->
