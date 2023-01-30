@@ -57,7 +57,7 @@ Here are the top use cases for Parking Lot:
 Here is the use case diagram of our Parking Lot:
 
 <p align="center">
-    <img src="/media-files/parking-use-case-diagram.svg" alt="Parking Lot Use Case Diagram">
+    <img src="./media-files/parking-use-case-diagram.svg" alt="Parking Lot Use Case Diagram">
     <br />
     Use Case Diagram for Parking Lot
 </p>
@@ -81,13 +81,13 @@ Here are the main classes of our Parking Lot System:
 * **ElectricPanel:** Customers will use the electric panels to pay and charge their electric vehicles.
 
 <p align="center">
-    <img src="/media-files/parking-class-diagram.png" alt="Parking Lot Class Diagram">
+    <img src="./media-files/parking-class-diagram.png" alt="Parking Lot Class Diagram">
     <br />
     Class Diagram for Parking Lot
 </p>
 
 <p align="center">
-    <img src="/media-files/parking-uml.svg" alt="Parking Lot UML">
+    <img src="./media-files/parking-uml.svg" alt="Parking Lot UML">
     <br />
     UML for Parking Lot
 </p>
@@ -97,7 +97,7 @@ Here are the main classes of our Parking Lot System:
 **Customer paying for parking ticket:** Any customer can perform this activity. Here are the set of steps:
 
 <p align="center">
-    <img src="/media-files/parking-ticket.svg" alt="Parking Ticket Activity Diagram">
+    <img src="./media-files/parking-ticket.svg" alt="Parking Ticket Activity Diagram">
     <br />
     Activity Diagram for Parking Lot Parking Ticket
 </p>
